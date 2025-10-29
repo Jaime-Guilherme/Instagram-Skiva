@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Perfil da Empresa — Estilo Instagram</title>
-  <link rel="stylesheet" href="insta.css">
+  <link rel="stylesheet" href="estilo.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -13,8 +13,8 @@
     <div class="container">
       <div class="brand">Instagram</div>
       <div class="top-actions">
-        <button class="icon-btn" aria-label="Pesquisar">🔍</button>
-        <button class="icon-btn" aria-label="Mais opções">⋯</button>
+        <button type="button" class="icon-btn" aria-label="Pesquisar">🔍</button>
+        <button type="button" class="icon-btn" aria-label="Mais opções">⋯</button>
       </div>
     </div>
 
@@ -22,16 +22,16 @@
 
   <main class="container profile">
     <section class="profile-header">
-      <div class="photo-wrap">
-        <img class="avatar" src="skiva modelo 3.png" alt="Avatar da Empresa">
+        <div class="photo-wrap">
+        <img class="avatar" src="skiva-modelo-3.png" alt="Avatar da Empresa">
       </div>
       <div class="profile-info">
         <div class="profile-row">
-          <h1 class="profile-name">Skiva_Desing <span class="verified">✔️</span></h1>
+            <h1 class="profile-name">Skiva_Design <span class="verified">✔️</span></h1>
           <div class="actions">
-            <button class="btn primary">Seguir</button>
-            <button class="btn outline">Mensagem</button>
-            <button class="icon-btn small" aria-label="Mais">⋯</button>
+              <button type="button" class="btn primary">Seguir</button>
+              <button type="button" class="btn outline">Mensagem</button>
+              <button type="button" class="icon-btn small" aria-label="Mais">⋯</button>
           </div>
         </div>
         <div class="meta">
@@ -40,33 +40,33 @@
           <span><strong>192</strong> Seguindo</span>
         </div>
         <div class="bio">
-          <p><strong>Salão de belaza</strong></p>
+          <p><strong>Salão de beleza</strong></p>
           <p>✨ Onde sua beleza encontra excelência</p>
 <p>💇‍♀️ Especialistas em cortes, coloração e maquiagem</p>
 <p>🌿 Produtos premium e cuidado exclusivo</p>
-          <p>📍 Caxias do Sul • ✉️ skiva1510@gmail.com • <a href="#" class="link">site principal</a></p>
+          <p>📍 Caxias do Sul • ✉️ skiva1510@gmail.com • <a href="https://jaime-guilherme.github.io/skiva-site/" class="link" target="_blank" rel="noopener noreferrer">nosso site</a></p>
         </div>
         <div class="highlights">
-          <button class="highlight">
+              <button type="button" class="highlight">
             <img src="antes-e-depois.jpeg" alt="Destaque 1">
             <span>Antes e Depois</span>
-          </button>
-          <button class="highlight">
-            <img src="creme skiva.png" alt="Destaque 2">
+              </button>
+              <button type="button" class="highlight">
+                <img src="creme-skiva.png" alt="Destaque 2">
             <span>Produtos</span>
-          </button>
-          <button class="highlight">
-            <img src="equipe.png" alt="Equipe">
+              </button>
+              <button type="button" class="highlight">
+            <img src="equipe.jpg" alt="Equipe">
             <span>Equipe</span>
-          </button>
+              </button>
         </div>
       </div>
     </section>
 
     <nav class="profile-nav" aria-label="Navegação de perfil">
-      <button class="tab active" aria-pressed="true">Publicações</button>
-      <button class="tab" aria-pressed="false">Reels</button>
-      <button class="tab" aria-pressed="false">Marcados</button>
+          <button type="button" class="tab active" aria-pressed="true">Publicações</button>
+          <button type="button" class="tab" aria-pressed="false">Reels</button>
+          <button type="button" class="tab" aria-pressed="false">Marcados</button>
     </nav>
 
     <section class="posts-grid">
@@ -86,7 +86,7 @@
         </div>
       </article>
       <article class="post">
-  <video controls width="350">
+  <video controls>
     <source src="video-pra-instagram.mp4" type="video/mp4">
     Seu navegador não suporta vídeos.
   </video>
@@ -103,10 +103,10 @@
   <footer class="footer">
     <div class="container small">
       <nav class="links">
-        <a href="#">Sobre</a>
-        <a href="#">Ajuda</a>
-        <a href="#">Imprensa</a>
-        <a href="#">Carreiras</a>
+        <button type="button" class="link">Sobre</button>
+        <button type="button" class="link">Ajuda</button>
+        <button type="button" class="link">Imprensa</button>
+        <button type="button" class="link">Carreiras</button>
       </nav>
       <p class="copyright">© <span id="year"></span> Todos os direitos reservados. </p>
     </div>
